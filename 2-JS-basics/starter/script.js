@@ -66,10 +66,8 @@
 // x += 10;
 // x++;
 // console.log(x);
-//
 
-/* ------------------------------------Operator precedence------------------------------------ */
-
+/* ------------------------------------Coding Challenge 1------------------------------------ */
 // var marksWeight = 82
 // var marksHeight = 1.65
 // var jhonsWeight = 96
@@ -80,9 +78,39 @@
 //
 // console.log(bmiCalcJhon, bmiCalcMark)
 // var bmiCompare = bmiCalcMark >= bmiCalcJhon;
-// var bmiTotal = ('Is marks bmi higher then jhons ? '+ bmiCompare)
-// console.log(bmiTotal)
 //
+// if(bmiCalcMark >= bmiCalcJhon){
+//     console.log('mark\'s bmi is higher then jhon\'s')
+// }else {
+//     console.log('mark\'s bmi is lower then jhon\'s')
+// }
+
+// var bmiTotal = ('Is mark\'s bmi higher then jhon\'s ? '+ bmiCompare)
+// console.log(bmiTotal)
+
+/* ------------------------------------If, Else statements------------------------------------ */
+// var firstName = 'jhon';
+// var civilStatus = 'single';
+//
+// if (civilStatus === 'married') {
+//     console.log(firstName + ' is married');
+// }else {
+//     alert( 'single');
+// }
+//
+// var isMarried = true;
+// if(isMarried) {
+//     console.log('this dude is married')
+// }else {
+//     console.log('this dude is not married')
+// }
+
+/* ------------------------------------Boolean logic------------------------------------ */
+var firstName = 'jhon'
+var age = 16
+ if(age < 13) {
+     console.log(firstName + ' is a boy')
+ }
 
 
 
