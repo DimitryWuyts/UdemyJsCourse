@@ -173,7 +173,7 @@
 //     console.log('type coercion ');
 // }
 //
-//
+
 /* ------------------------------------Coding challenge 2------------------------------------ */
 // var jhonsTeamAv = (89 + 120 + 103) / 3;
 // var mikesTeamAv = (116 + 94 + 123) / 3;
@@ -198,6 +198,58 @@
 //         console.log(' the game did not play out because of covid 19')
 //
 // }
+
+/* ------------------------------------Functions------------------------------------ */
+// function calculateAge(Year) {
+//     return 2018 - Year;
+//
+// }
+// var ageJhon = calculateAge(1990);
+// var ageMike = calculateAge(1942);
+// var ageJane= calculateAge(1972);
+// console.log(ageJhon, ageMike, ageJane);
+//
+// function calculateYears(Year, firstName) {
+//     var age = calculateAge(Year);
+//     var retirement = 65 - age;
+//     if (retirement > 0) {
+//         console.log(firstName + " retires in " + retirement + ' years');
+//     }else {
+//         console.log(firstName +  ' already retired')
+//     }
+// }
+// calculateYears(1942, 'jhon');
+
+/* ------------------------------------Function statements and expressions------------------------------------ */
+// var whatDoYouDo =
+// function (job, firstName) {
+//
+// }
+
+// function whatDoYouDo(job, firstName) {
+// switch (job) {
+//     case 'teacher':
+//         return firstName + ' teaches kids how to code'
+//     case 'designer':
+//         return firstName + ' is a designer'
+//
+//     case 'whatever':
+//         return firstName + ' does whatever'
+//
+//     default:
+//         return firstName + ' does jack shit'
+//
+// }
+// }
+// console.log(whatDoYouDo('retired', 'dimi'));
+
+/* ------------------------------------Arrays------------------------------------ */
+var names = ['jhon', 'mark', 'jane'];
+var years = [1990, 1969, 1948];
+console.log(names.length)
+
+names[1] = 'ben';
+console.log(names)
 
 
 
