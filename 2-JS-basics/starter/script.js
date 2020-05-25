@@ -105,13 +105,99 @@
 //     console.log('this dude is not married')
 // }
 
-/* ------------------------------------Boolean logic------------------------------------ */
-var firstName = 'jhon'
-var age = 16
- if(age < 13) {
-     console.log(firstName + ' is a boy')
- }
+/* ------------------------------------Boolean logic------------------------------------ */ // ( &&, ||, ! )
+// var firstName = 'jhon'
+// var age = 21
+//  if(age < 13) {
+//      console.log(firstName + ' is a boy');
+//  }else if(age >= 13 && age < 20){
+//      console.log(firstName + ' is a teenager')
+//  }else if (age >= 20 && age < 30){
+//      console.log(firstName + ' is a young man')
+//  }
+//  else {
+//      console.log(firstName + ' is a man');
+//  }
 
+/* ------------------------------------Ternary operator and Switch statements------------------------------------ */
+// var firstName = 'jhon'
+// var age = 16
+// //Ternary
+// age >= 18 ? console.log(firstName + ' drinks beer')
+//     : console.log(firstName + ' drinks juice');
+//
+// var drink = age >= 18 ? 'beer' : 'juice';
+// console.log(drink);
+//
+// //Switch
+// var job = 'teacher';
+// switch (job) {
+//     case 'teacher':
+//         console.log(firstName + ' is a teacher');
+//         break;
+//     case 'driver':
+//         console.log(firstName + ' drives people');
+//         break;
+//     case 'designer':
+//         console.log(firstName + ' is a designer');
+//         break;
+//     default:
+//         console.log(firstName + ' is out of work (and homeless)');
+// }
+//
+// switch (true) {
+//     case age < 13:
+//         console.log(firstName + ' is a boy');
+//         break;
+//     case age >= 13 && age < 20:
+//         console.log(firstName + ' is a teenager');
+//         break;
+//     case age >= 20 && age < 30:
+//         console.log(firstName + ' is a young man');
+//         break;
+//     default:
+//         console.log(firstName + ' is a man');
+// }
+
+/* ------------------------------------Truthy and Falsy values and equality operators------------------------------------ */
+// var height;
+// height = 23;
+//
+// if (height || height === 0) {
+//     console.log('variable is defined');
+// }else {
+//     console.log('variable has not been defined');
+// }
+// // Equality operator
+// if (height == '23') {
+//     console.log('type coercion ');
+// }
+//
+//
+/* ------------------------------------Coding challenge 2------------------------------------ */
+// var jhonsTeamAv = (89 + 120 + 103) / 3;
+// var mikesTeamAv = (116 + 94 + 123) / 3;
+// var marysTeamAv = (97 + 134 + 105) / 3;
+//
+// console.log('jhons team points : ' + jhonsTeamAv, 'mikes team points : ' + mikesTeamAv, 'marys team points : ' + marysTeamAv)
+//
+// switch(true) {
+//     case jhonsTeamAv > mikesTeamAv && jhonsTeamAv > marysTeamAv:
+//         console.log('jhonsteam is the winner');
+//         break;
+//     case mikesTeamAv > jhonsTeamAv && mikesTeamAv > marysTeamAv:
+//         console.log('mikesteam is the winner');
+//         break;
+//     case marysTeamAv > jhonsTeamAv && marysTeamAv > mikesTeamAv:
+//         console.log('marys team is the winner');
+//         break;
+//     case jhonsTeamAv = mikesTeamAv && marysTeamAv:
+//         console.log('mike and jhon are equal to eachother');
+//         break;
+//     default:
+//         console.log(' the game did not play out because of covid 19')
+//
+// }
 
 
 
