@@ -244,15 +244,35 @@
 // console.log(whatDoYouDo('retired', 'dimi'));
 
 /* ------------------------------------Arrays------------------------------------ */
-var names = ['jhon', 'mark', 'jane'];
-var years = [1990, 1969, 1948];
-console.log(names.length)
+// var names = ['jhon', 'mark', 'jane'];
+// var years = [1990, 1969, 1948];
+// console.log(names.length)
+//
+// names[1] = 'ben';
+// names[names.length] = 'mary';
+// console.log(names)
+//
+// var jhon = ['jhon', 'smith', 1990, 'teacher', false];
+//
 
-names[1] = 'ben';
-console.log(names)
 
-
-
+// function tipCalculate(bill) {
+//     var percentage;
+//     if (bill < 50) {
+//         percentage = .2;
+//     }else if ( bill >= 50 && bill <= 200) {
+//         percentage = .15;
+//     }else {
+//         percentage = .1;
+//     }
+//     return percentage * bill;
+// }
+// var bills = [124, 48, 268];
+// var tips = [tipCalculate (bills[0]), tipCalculate(bills[1]), tipCalculate(bills[2]) ];
+// var billsTotal = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]]
+// console.log(tips, billsTotal)
+//
+//
 
 
 
